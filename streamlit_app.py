@@ -15,10 +15,9 @@ st.set_page_config(
 # ==========================
 # LOAD MODELS
 # ==========================
-flight_model = joblib.load("flight_price_model.pkl")
-gender_model = joblib.load("gender_model.pkl")
-
-hotel_data = joblib.load("hotel_recommender.pkl")
+flight_model = joblib.load("models/flight_price_model.pkl")
+gender_model = joblib.load("models/gender_model.pkl")
+hotel_model = joblib.load("models/hotel_recommender.pkl")
 user_similarity_df = hotel_data["user_similarity_df"]
 user_hotel_matrix = hotel_data["user_hotel_matrix"]
 
