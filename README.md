@@ -260,7 +260,7 @@ streamlit run streamlit_app.py
 
 # Author
 
-Yash
+Yashman Singh
 
 Machine Learning | Data Science | MLOps
 
